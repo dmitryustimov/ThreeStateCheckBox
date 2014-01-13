@@ -24,7 +24,9 @@ ThreeStateCheckbox is an open source Android library that provides a three state
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     ... >
+```
 
+```xml
 <ru.ustimov.widget.ThreeStateCheckBox
     android:id="@+id/threeStateCheckBox"
     android:layout_width="wrap_content"
