@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Dmitry Ustimov
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:threeStateCheckBox="http://schemas.android.com/apk/res-auto">
+
+    <!-- Enabled states -->
+        
+    <item threeStateCheckBox:state_all="true" android:state_window_focused="false"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_all_holo_light" />
+    <item threeStateCheckBox:state_multiple="true" android:state_window_focused="false"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_multiple_holo_light" />
+    <item threeStateCheckBox:state_unchecked="true" android:state_window_focused="false"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_unchecked_holo_light" />
+
+    <item threeStateCheckBox:state_all="true" android:state_pressed="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_all_pressed_holo_light" />
+    <item threeStateCheckBox:state_multiple="true" android:state_pressed="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_multiple_pressed_holo_light" />
+    <item threeStateCheckBox:state_unchecked="true" android:state_pressed="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_unchecked_pressed_holo_light" />
+
+    <item threeStateCheckBox:state_all="true" android:state_focused="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_all_focused_holo_light" />
+    <item threeStateCheckBox:state_multiple="true" android:state_focused="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_multiple_focused_holo_light" />
+    <item threeStateCheckBox:state_unchecked="true" android:state_focused="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_unchecked_focused_holo_light" />
+
+    <item threeStateCheckBox:state_unchecked="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_unchecked_holo_light" />
+    <item threeStateCheckBox:state_multiple="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_multiple_holo_light" />
+    <item threeStateCheckBox:state_all="true"
+          android:state_enabled="true"
+          android:drawable="@drawable/three_state_all_holo_light" />
+
+
+    <!-- Disabled states -->
+
+    <item threeStateCheckBox:state_all="true" android:state_window_focused="false"
+          android:drawable="@drawable/three_state_all_disabled_holo_light" />
+    <item threeStateCheckBox:state_multiple="true" android:state_window_focused="false"
+          android:drawable="@drawable/three_state_multiple_disabled_holo_light" />
+    <item threeStateCheckBox:state_unchecked="true" android:state_window_focused="false"
+          android:drawable="@drawable/three_state_unchecked_disabled_holo_light" />
+
+    <item threeStateCheckBox:state_all="true" android:state_focused="true"
+          android:drawable="@drawable/three_state_all_disabled_focused_holo_light" />
+    <item threeStateCheckBox:state_multiple="true" android:state_focused="true"
+          android:drawable="@drawable/three_state_multiple_disabled_focused_holo_light" />
+    <item threeStateCheckBox:state_unchecked="true" android:state_focused="true"
+          android:drawable="@drawable/three_state_unchecked_disabled_focused_holo_light" />
+
+    <item threeStateCheckBox:state_unchecked="true" android:drawable="@drawable/three_state_unchecked_disabled_holo_light" />
+    <item threeStateCheckBox:state_multiple="true" android:drawable="@drawable/three_state_multiple_disabled_holo_light" />
+    <item threeStateCheckBox:state_all="true" android:drawable="@drawable/three_state_all_disabled_holo_light" />
+
+</selector>
