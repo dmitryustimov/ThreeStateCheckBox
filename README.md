@@ -28,11 +28,11 @@ ThreeStateCheckbox is an open source Android library that provides a three state
 
 ```xml
 <ru.ustimov.widget.ThreeStateCheckBox
-        android:id="@+id/threeStateCheckBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:state_unchecked="true"
-        android:text="ThreeStateCheckBox" />
+    android:id="@+id/threeStateCheckBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:state_unchecked="true"
+    android:text="ThreeStateCheckBox" />
 ```
 
 5. Use ThreeStateCheckBox in your activuty or fragment. 
@@ -49,7 +49,11 @@ public class MainActivity extends Activity implements OnStateChangeListener {
 		threeStateCheckBox = (ThreeStateCheckBox) findViewById(R.id.threeStateCheckBox);
 		threeStateCheckBox.setOnStateChangeListener(this);
 	}
-
+	
+	@Override
+	public void onStateChanged(ThreeStateCheckBox v, int state) {
+		...
+	}
 }
 ```
 
