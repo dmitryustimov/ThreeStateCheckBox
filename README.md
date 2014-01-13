@@ -17,6 +17,7 @@ ThreeStateCheckbox is an open source Android library that provides a three state
     <item name="threeStateCheckboxStyle">@style/ThreeStateCheckboxStyle</item>
 </style>
 ```
+
 4. Add ThreeStateCheckBox to layout. Set up namespace: `xmlns:app="http://schemas.android.com/apk/res-auto"`
 ```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -34,6 +35,7 @@ ThreeStateCheckbox is an open source Android library that provides a three state
     ...
 </RelativeLayout>
 ```
+
 5. Use ThreeStateCheckBox in your activuty or fragment
 ```java
 public class MainActivity extends Activity implements OnStateChangeListener {
