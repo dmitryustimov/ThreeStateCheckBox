@@ -15,7 +15,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
         
-    <style name="ThreeStateCheckbox">
+    <style name="ThreeStateCheckboxStyle">
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:textAppearance">?android:attr/textAppearance</item>

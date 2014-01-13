@@ -61,7 +61,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int three_state_unchecked_pressed_holo_light=0x7f02000f;
     }
     public static final class style {
-        public static int ThreeStateCheckbox=0x7f030000;
+        public static int ThreeStateCheckboxStyle=0x7f030000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ThreeStateCheckbox.

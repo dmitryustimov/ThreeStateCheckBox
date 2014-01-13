@@ -115,7 +115,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  Application theme. 
          */
         public static final int AppTheme=0x7f040002;
-        public static final int ThreeStateCheckbox=0x7f040000;
+        public static final int ThreeStateCheckboxStyle=0x7f040000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ThreeStateCheckbox.

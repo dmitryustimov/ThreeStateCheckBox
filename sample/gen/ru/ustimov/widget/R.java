@@ -33,7 +33,7 @@ public final class R {
 		public static final int three_state_unchecked_pressed_holo_light = 0x7f020010;
 	}
 	public static final class style {
-		public static final int ThreeStateCheckbox = 0x7f040000;
+		public static final int ThreeStateCheckboxStyle = 0x7f040000;
 	}
 	public static final class styleable {
 		public static final int[] ThreeStateCheckbox = { 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004 };
