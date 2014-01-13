@@ -68,7 +68,7 @@ public class ThreeStateCheckBox extends Button implements Checkable {
 
 		Drawable d = a.getDrawable(R.styleable.ThreeStateCheckbox_button);
 		if (d != null) {
-			setButtonDrawable(R.drawable.three_state_check_box_holo_light);
+			setButtonDrawable(d);
 		}
 
 		boolean isUnchecked = a.getBoolean(
